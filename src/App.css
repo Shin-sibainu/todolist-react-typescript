@@ -12,6 +12,17 @@
 }
 
 .submitButton {
-  padding: 7.4px 15px;
+  padding: 8px 15px;
   cursor: pointer;
+}
+
+.todoList li {
+  width: 10%;
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.todoList li input {
+  padding: 7px;
 }
